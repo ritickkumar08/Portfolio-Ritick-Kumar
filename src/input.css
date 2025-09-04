@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap");
+
+header{
+    font-family: "Emilys Candy", serif;
+}
