@@ -13,10 +13,10 @@
     <header class="fixed inset-x-0 top-0 bg-transparent z-50 backdrop-blur-none transition-all duration-300">
         <div class="max-w-6xl mx-auto py-4 ">
             <div class="flex justify-around items-center rounded-full h-20 shadow-2xl shadow-slate-600 bg-black">
-                <a href="Home"><h1 class="font-extrabold text-4xl">&lt; RK/ &gt;</h1></a>
+                <a href="Home"><h1 class="font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">&lt; RK/ &gt;</h1></a>
 
                 <nav aria-label="primary" class="hidden md:block">                   
-                    <ul class="flex gap-6 text-md font-semibold">
+                    <ul class="flex flex-wrap gap-6 text-md font-semibold justify-center md:justify-end">
                         <li><a href="#Home" class="hover:text-teal-700 duration-300">Home</a></li>
                         <li><a href="#About" class="hover:text-green-400 duration-300">About</a></li>
                         <li><a href="#Skills" class="hover:text-green-400 duration-300">Skills</a></li>
@@ -35,11 +35,11 @@
     <main class="pt-28">
 
         <!-- =====================home====================== -->
-        <section id="Home" class="py-40 max-sm:py-16 w-6xl mx-auto rounded-2xl"> 
+        <section id="Home" class="py-40 max-sm:py-16 max-w-6xl mx-auto rounded-2xl"> 
             <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
                 <div class="space-y-5">
-                    <h1 class="text-4xl font-extrabold leading-tight sm:text-5xl">Hey I'm <span class="text-green-500">Ritick -</span></h1>
-                    <h2 class="text-4xl font-extrabold leading-tight sm:text-5xl">A Full Stack Developer</h2>
+                    <h1 class="font-extrabold leading-tight text-3xl sm:text-4xl md:text-5xl lg:text-6xl">Hey I'm <span class="text-green-500">Ritick -</span></h1>
+                    <h2 class="font-extrabold leading-tight text-3xl sm:text-4xl md:text-5xl lg:text-6xl">A Full Stack Developer</h2>
                     <p class="text-slate-400">Passionate about crafting polished, intuitive, and thoughtful digital experiences that leave a mark.</p>
             <!-- -----------social profiles----------------------------------- -->
                     <div class="flex items-center gap-4 mt-14">
@@ -48,14 +48,14 @@
                         <a href="https://www.linkedin.com/in/ritickkumar08/"  aria-label="LinkedIn"><img class="w-14  shadow-sm shadow-slate-600 hover:shadow-lg" src="images/LI-In-Bug.png" loading="lazy" alt="Linkedin logo"></a>
                         <a href="https://www.instagram.com/advait_rik446?igsh=N3ZhZHQ3azhyZWg=" aria-label="Instagram"><img class="w-14 inset-ring-2 rounded-2xl inset-ring-slate-600 shadow-sm shadow-slate-600 hover:shadow-lg" src="images/instagram.png" loading="lazy" alt="Instagram logo"></a>
             <!-- ------------resume--------------------------------------------- -->
-                        <div class="bg-transparent border-2 border-slate-500 rounded-full  ml-12 hover:bg-green-600 hover:border-green-600">
-                            <a href="docs/Resume.pdf" download class="inline-flex items-center justify-center px-4 py-1 bg-slate-950 rounded-full"><span class="text-4xl">•</span>Download Resume</a>
+                        <div class="bg-transparent border-2 border-slate-500 rounded-full  ml-12 hover:border-green-600">
+                            <a href="docs/Resume.pdf" download class="inline-flex items-center justify-center px-4 py-1 bg-slate-950 rounded-full  shadow-sm shadow-slate-600 hover:shadow-lg"><span class="text-4xl">•</span>Download Resume</a>
                         </div>
                     </div>
                 </div>
             <!-- ------------profile image--------------------------------------- -->
                 <div class="flex justify-center md:justify-end">
-                    <img src="images/Ritick.png" loading="lazy" alt="Profilr picture of Ritick kumar" class="size-60 md:size-72 rounded-full object-cover object-top shadow-lg shadow-red-900 animate-floaty">
+                    <img src="images/Ritick.png" loading="lazy" alt="Profilr picture of Ritick kumar" class="size-60 sm:size-56 md:size-72 rounded-full object-cover object-top shadow-lg shadow-red-900 animate-floaty">
                 </div>
             </div>
 
@@ -65,7 +65,7 @@
 
 
         <!-- =======================about======================= -->
-        <section id="About" class="border py-32 max-sm:py-16 mt-20 sm:mt-10 bg-slate-800 shadow-2xl shadow-slate-700 w-6xl mx-auto rounded-2xl">
+        <section id="About" class="border py-32 max-sm:py-16 mt-20 sm:mt-10 bg-slate-800 shadow-2xl shadow-slate-700 max-w-6xl mx-auto rounded-2xl">
             <div class="max-w-6xl mx-auto px-4 items-center grid md:grid-cols-2 gap-10">
                 <div  class="order-1 md:order-1 space-y-4">
                     <h2 class="text-4xl font-extrabold">About Me</h2>
@@ -83,8 +83,8 @@
 
 
         <!-- =================================skills=========================== -->
-         <section id="Skills" class="py-32 max-sm:py-16 shadow-2xl mt-20 sm:mt-10 shadow-slate-700 w-6xl mx-auto rounded-2xl">
-            <div class="max-w-3xl mx-auto px-4 border">
+         <section id="Skills" class="py-32 max-sm:py-16 shadow-2xl mt-20 sm:mt-10 shadow-slate-700 max-w-6xl mx-auto rounded-2xl">
+            <div class="max-w-3xl mx-auto px-4 border grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <h2 class="text-4xl font-extrabold text-center leading-relaxed mb-10">My Skills</h2>
                 <div class="space-y-6 px-10 py-5 pb-12">
                     <div>
@@ -114,7 +114,7 @@
 
 
         <!-- =========================certifications=========================== -->
-        <section id="Certifications" class="py-32 max-sm:py-16 mt-20 sm:mt-10 shadow-2xl shadow-slate-700 w-6xl mx-auto rounded-2xl">
+        <section id="Certifications" class="py-32 max-sm:py-16 mt-20 sm:mt-10 shadow-2xl shadow-slate-700 max-w-6xl mx-auto rounded-2xl">
             <div class="max-w-6xl mx-auto px-4">
                 <h2 class="text-4xl font-extrabold text-center leading-relaxed mb-24">Certifications</h2>
                 <div class="grid lg:grid-cols-2 lg:grid-rows-3 gap-8 sm:grid-cols-1">
@@ -155,7 +155,7 @@
 
 
         <!-- ===============================Projects=============================== -->
-        <section id="Projects" class="py-32 max-sm:py-16 mt-20 sm:mt-10 shadow-2xl shadow-slate-700 w-6xl mx-auto rounded-2xl">
+        <section id="Projects" class="py-32 max-sm:py-16 mt-20 sm:mt-10 shadow-2xl shadow-slate-700 max-w-6xl mx-auto rounded-2xl">
             <div class="max-w-6xl mx-auto px-4">
                 <h2 class="text-4xl font-extrabold text-center leading-relaxed mb-32">Projects</h2>
 
@@ -215,7 +215,7 @@
 
 
         <!-- ===================contact===================== -->
-        <section id="Contact" class="border py-32 max-sm:py-16 mt-20 sm:mt-10 bg-slate-800 shadow-2xl shadow-slate-700 w-6xl mx-auto rounded-2xl">
+        <section id="Contact" class="border py-32 max-sm:py-16 mt-20 sm:mt-10 bg-slate-800 shadow-2xl shadow-slate-700 max-w-6xl mx-auto rounded-2xl">
             <div class="max-w-6xl mx-auto px-4">
                 <h2 class="text-6xl font-extrabold text-center leading-relaxed mb-32 ">Let's Contact</h2>
                 <div class="bg-slate-700 max-w-2xl mx-auto rounded-2xl text-center shadow-md shadow-slate-600">
